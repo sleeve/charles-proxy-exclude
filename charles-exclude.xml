@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <?charles serialisation-version='2.0' ?>
 <recording>
-  <limit>100</limit>
+  <limit>300</limit>
   <maxTransactions>0</maxTransactions>
   <ignoreHosts>
     <locationPatterns>
@@ -84,14 +84,13 @@
       </locationMatch>
       <locationMatch>
         <location>
-          <protocol>http</protocol>
           <host>att-amerwest-00002.nawest.synaptic.att.com</host>
         </location>
         <enabled>true</enabled>
       </locationMatch>
       <locationMatch>
         <location>
-          <protocol>https</protocol>
+          <protocol>http</protocol>
           <host>att-amerwest-00002.nawest.synaptic.att.com</host>
         </location>
         <enabled>true</enabled>
@@ -112,17 +111,13 @@
       </locationMatch>
       <locationMatch>
         <location>
-          <protocol>http</protocol>
           <host>blobstore-002.icloud.com</host>
-          <port>*</port>
         </location>
         <enabled>true</enabled>
       </locationMatch>
       <locationMatch>
         <location>
-          <protocol>https</protocol>
-          <host>blobstore-002.icloud.com</host>
-          <port>*</port>
+          <host>captive.apple.com</host>
         </location>
         <enabled>true</enabled>
       </locationMatch>
@@ -256,6 +251,13 @@
         <location>
           <protocol>http</protocol>
           <host>init.ess.apple.com</host>
+        </location>
+        <enabled>true</enabled>
+      </locationMatch>
+      <locationMatch>
+        <location>
+          <protocol>https</protocol>
+          <host>init.itunes.apple.com</host>
         </location>
         <enabled>true</enabled>
       </locationMatch>
@@ -538,6 +540,12 @@
         <location>
           <protocol>http</protocol>
           <host>www.appleiphonecell.com</host>
+        </location>
+        <enabled>true</enabled>
+      </locationMatch>
+      <locationMatch>
+        <location>
+          <host>www.itools.info</host>
         </location>
         <enabled>true</enabled>
       </locationMatch>
