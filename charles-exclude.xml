@@ -1,10 +1,28 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <?charles serialisation-version='2.0' ?>
 <recording>
-  <limit>300</limit>
+  <limit>750</limit>
   <maxTransactions>0</maxTransactions>
   <ignoreHosts>
     <locationPatterns>
+      <locationMatch>
+        <location>
+          <host>*.amazonaws.com</host>
+        </location>
+        <enabled>true</enabled>
+      </locationMatch>
+      <locationMatch>
+        <location>
+          <host>*.icloud.com</host>
+        </location>
+        <enabled>true</enabled>
+      </locationMatch>
+      <locationMatch>
+        <location>
+          <host>*.ls.apple.com</host>
+        </location>
+        <enabled>true</enabled>
+      </locationMatch>
       <locationMatch>
         <location>
           <host>*.symcd.com</host>
@@ -26,6 +44,12 @@
       <locationMatch>
         <location>
           <host>a*.mzstatic.com</host>
+        </location>
+        <enabled>true</enabled>
+      </locationMatch>
+      <locationMatch>
+        <location>
+          <host>api.dropbox.com</host>
         </location>
         <enabled>true</enabled>
       </locationMatch>
@@ -62,12 +86,6 @@
       <locationMatch>
         <location>
           <host>att-us-sfo-dfw-00001.nawest2.synaptic.att.com</host>
-        </location>
-        <enabled>true</enabled>
-      </locationMatch>
-      <locationMatch>
-        <location>
-          <host>blobstore-002.icloud.com</host>
         </location>
         <enabled>true</enabled>
       </locationMatch>
@@ -193,12 +211,6 @@
       </locationMatch>
       <locationMatch>
         <location>
-          <host>keyvalueservice.icloud.com</host>
-        </location>
-        <enabled>true</enabled>
-      </locationMatch>
-      <locationMatch>
-        <location>
           <host>mesu.apple.com</host>
         </location>
         <enabled>true</enabled>
@@ -212,18 +224,6 @@
       <locationMatch>
         <location>
           <host>ocsp.apple.com</host>
-        </location>
-        <enabled>true</enabled>
-      </locationMatch>
-      <locationMatch>
-        <location>
-          <host>p01-*.icloud.com</host>
-        </location>
-        <enabled>true</enabled>
-      </locationMatch>
-      <locationMatch>
-        <location>
-          <host>p03-*.icloud.com</host>
         </location>
         <enabled>true</enabled>
       </locationMatch>
@@ -253,7 +253,8 @@
       </locationMatch>
       <locationMatch>
         <location>
-          <host>setup.icloud.com</host>
+          <protocol>https</protocol>
+          <host>smp-device-content.apple.com</host>
         </location>
         <enabled>true</enabled>
       </locationMatch>
@@ -271,13 +272,31 @@
       </locationMatch>
       <locationMatch>
         <location>
+          <host>www.airport.us</host>
+        </location>
+        <enabled>true</enabled>
+      </locationMatch>
+      <locationMatch>
+        <location>
           <host>www.appleiphonecell.com</host>
         </location>
         <enabled>true</enabled>
       </locationMatch>
       <locationMatch>
         <location>
+          <host>www.ibook.info</host>
+        </location>
+        <enabled>true</enabled>
+      </locationMatch>
+      <locationMatch>
+        <location>
           <host>www.itools.info</host>
+        </location>
+        <enabled>true</enabled>
+      </locationMatch>
+      <locationMatch>
+        <location>
+          <host>xp.apple.com</host>
         </location>
         <enabled>true</enabled>
       </locationMatch>
