@@ -2,7 +2,7 @@
 While recording a Charles Proxy session for an iOS device there are a lot of background calls that can show up in your recording. The calls range from network carrier update checks, Weather.com and Yahoo stock updates to various Apple and Amazon AWS reachability/service calls. For most recordings I don't need to see all of these background calls. To make it easier to parse recordings I've added most of these calls to my Exlude list.
 
 >######WARNING
->It may be a bit agressive (iCloud/Amazon AWS/Dropbox) for some projects so be sure to double check all of the hosts after >importing to make sure you aren't dropping your calls on the floor. 
+>It may be a bit agressive (iCloud/Amazon AWS/Dropbox) for some projects so be sure to double check all of the hosts after importing to make sure you aren't dropping your calls on the floor. 
 
 ## Install
 1. Launch Charles Proxy
